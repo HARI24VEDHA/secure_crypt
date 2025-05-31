@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureCrypt | Military-Grade Encryption</title>
+  <style>
+    /* Modern styling */
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2d3436;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      background: #f8f9fa;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400&display=swap');
+
+    .container {
+      width: 100%;
+      max-width: 700px;
+      background: white;
+      border-radius: 16px;
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #2d3436;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 1.25rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 1rem;
+      min-height: 120px;
+      resize: vertical;
+      margin-bottom: 2rem;
+      transition: all 0.2s ease;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #6c5ce7;
+      box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+      margin: 2rem 0;
+    }
+
+    .algorithm {
+      margin-bottom: 2.5rem;
+    }
+
+    .algorithm-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .algorithm-name {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    .algorithm-type {
+      font-size: 0.85rem;
+      background: #f1f3f5;
+      padding: 0.35rem 0.8rem;
+      border-radius: 100px;
+    }
+
+    .cipher-output {
+      font-family: 'Fira Code', monospace;
+      background: #f8f9fa;
+      padding: 1.25rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      word-break: break-all;
+      white-space: pre-wrap;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Military-Grade Encryption Playground</h1>
+    
+    <textarea placeholder="Type or paste sensitive data here..."></textarea>
+    
+    <div class="divider"></div>
+    
+    <div class="algorithm">
+      <div class="algorithm-header">
+        <div class="algorithm-name">AES-256</div>
+        <div class="algorithm-type">Symmetric</div>
+      </div>
+      <div class="cipher-output">
+        AES:133a5a44cdca8a8679868fe0:0b40b0f5f07e298e1a37664e0605723
+      </div>
+    </div>
+    
+    <div class="algorithm">
+      <div class="algorithm-header">
+        <div class="algorithm-name">RSA-OAEP</div>
+        <div class="algorithm-type">Asymmetric</div>
+      </div>
+      <div class="cipher-output">
+        RSA:4fc24a13c04a304db03578a75ca05f193dc905dc596980b593ac5806d26de2dae9a2b7b27f6c5fd86ee2427516a75b2d039de08b26cf19acf03c1924659c88e517a3218bdcf18f9ce7fe697779925b
+      </div>
+    </div>
+  </div>
+</body>
+</html>
