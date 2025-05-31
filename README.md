@@ -67,8 +67,6 @@ securecrypt/
 - Rotate JWT secrets periodically  
 - Implement rate limiting (included in `server/middleware/rateLimit.js`)  
 
-## 📜 License
-MIT License - See [LICENSE](./LICENSE)
 
 ## 🤝 Contribution
 1. Fork the project  
