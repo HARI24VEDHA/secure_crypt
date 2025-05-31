@@ -1,6 +1,5 @@
 # 🔒 SecureCrypt - Military-Grade Encryption Playground
-
-![Demo Screenshot](./assets/demo-screenshot.png)  
+  
 *Real-time encryption interface with AES-256 and RSA-2048*
 
 ## 🚀 Features
