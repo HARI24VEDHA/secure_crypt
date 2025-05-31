@@ -1,4 +1,4 @@
-# 🔒 SecureCrypt - Military-Grade Encryption Playground
+# 🔒 SecureCrypt Encryption Playground
   
 *Real-time encryption interface with AES-256 and RSA-2048*
 
